@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="329.0" style="-fx-background-color: darkslateblue;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.registrazia">
+   <children>
+      <TextField fx:id="singuplog" layoutX="93.0" layoutY="136.0" />
+      <Label layoutX="30.0" layoutY="140.0" text="Логин" />
+      <Label layoutX="30.0" layoutY="209.0" text="Пароль" />
+      <Button fx:id="ButReg" layoutX="101.0" layoutY="281.0" mnemonicParsing="false" onAction="#zaregi" text="Зарегистрироваться" />
+      <Label layoutX="99.0" layoutY="56.0" text="Регистрация">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="singuppassw" layoutX="93.0" layoutY="205.0" prefHeight="25.0" prefWidth="149.0" />
+   </children>
+</AnchorPane>

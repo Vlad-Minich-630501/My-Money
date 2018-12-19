@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.text.Font?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="380.0" prefWidth="384.0" style=" -fx-background-color: darkslateblue">
+         <children>
+            <Label layoutX="29.0" layoutY="157.0" text="Логин" />
+            <Label layoutX="25.0" layoutY="226.0" text="Пароль" />
+            <Button fx:id="qwe" layoutX="108.0" layoutY="293.0" mnemonicParsing="false" onAction="#actionttt" text="Войти" />
+            <Button fx:id="ttt" layoutX="179.0" layoutY="293.0" mnemonicParsing="false" onAction="#gogo" text="Создать аккаунт" />
+            <Label alignment="CENTER" layoutX="106.0" layoutY="36.0" prefHeight="68.0" prefWidth="174.0" text="Авторизация" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="login_field" layoutX="80.0" layoutY="152.0" prefHeight="37.0" prefWidth="225.0" promptText="Введите логин" />
+            <PasswordField fx:id="password_field" layoutX="81.0" layoutY="225.0" prefHeight="37.0" prefWidth="225.0" promptText="Введите пароль" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
