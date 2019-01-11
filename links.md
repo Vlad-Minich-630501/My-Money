@@ -11,3 +11,5 @@ Mockups - https://github.com/Vlad-Minich-630501/My-Money/tree/master/Mockup
 Tests - https://github.com/Vlad-Minich-630501/My-Money/tree/master/document/Tests
 
 Deploymentdiagrаm - https://github.com/Vlad-Minich-630501/My-Money/blob/master/document/deploymentdiagr%D0%B0m.png
+
+SRS - https://github.com/Vlad-Minich-630501/My-Money/blob/master/document/SRS.md
